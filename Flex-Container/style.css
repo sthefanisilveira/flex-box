@@ -1,0 +1,85 @@
+html{
+    min-height: 100vh;
+    background: #fdcb6e;
+}
+
+h1 {
+    font-family: 'Baloo Paaji 2', cursive;
+    color: #2d3436;
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2d3436;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.row {
+    display: flex;
+}
+
+/*Row*/
+
+.direction-row {
+    width: 400px;
+}
+
+.container > * {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 3px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+}
+
+.container > *:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.container {
+    background: #fdcb6e;
+    display: flex;
+}
+
+/*Row-reverse*/
+
+.row-reverse {
+    width: 400px;
+    text-align: right;
+}
+
+.container-row-reverse > * {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 3px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+}
+
+.container-row-reverse > *:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.container-row-reverse {
+    background: #fdcb6e;
+    display: flex;
+    flex-direction: row-reverse;
+}
