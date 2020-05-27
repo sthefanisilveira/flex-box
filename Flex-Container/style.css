@@ -83,3 +83,124 @@ p {
     display: flex;
     flex-direction: row-reverse;
 }
+
+/*Column*/
+
+.direction-column {
+    width: 400px;
+}
+
+.container-column > * {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 3px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+}
+
+.container-column > *:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.container-column {
+    background: #fdcb6e;
+    display: flex;
+    flex-direction: column;
+}
+
+/*column-reverse*/
+
+.column-reverse {
+    width: 400px;
+    text-align: right;
+}
+
+.container-column-reverse > * {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 3px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+}
+
+.container-column-reverse > *:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.container-column-reverse {
+    background: #fdcb6e;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/*Wrap*/
+
+.flex-wrap {
+    width: 400px;
+    margin-left: 5px;
+}
+
+.container-flex-wrap > * {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 3px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+}
+
+.container-flex-wrap > *:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.container-flex-wrap {
+    background: #fdcb6e;
+    display: flex;
+    width: 420px;
+    border: 4px solid #8e44ad;
+    flex-wrap: wrap;
+}
+
+/*Wrap-reverse*/
+
+.flex-wrap-reverse {
+    width: 400px;
+    text-align: right;
+}
+
+.container-flex-wrap-reverse > * {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 3px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+}
+
+.container-flex-wrap-reverse > *:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.container-flex-wrap-reverse {
+    background: #fdcb6e;
+    display: flex;
+    width: 420px;
+    border: 4px solid #8e44ad;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
